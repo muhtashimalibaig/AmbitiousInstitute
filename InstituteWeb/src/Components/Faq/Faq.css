@@ -1,0 +1,19 @@
+#accordionFlushExample{
+    --bs-accordion-bg: #000;
+}
+.accordion-button{
+    --bs-accordion-active-bg: #000 !important;
+}
+.accordion-button:focus-visible{
+    outline: none !important;
+}
+.accordion-header:focus-visible{
+    outline: none !important;
+}
+.accordion-item:focus-visible{
+    outline: none !important;
+    border: none !important;
+}
+.accordion-item{
+    padding: 20px;
+}

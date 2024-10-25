@@ -1,0 +1,47 @@
+.icons {
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 1s ease-in-out, border-color 1s ease-in-out !important;
+}
+
+.icons:hover {
+    background-image: linear-gradient(#f4a910, #ed8600) !important;
+    border-color: #ed8600 !important;
+    box-shadow: 0px 0px 50px 10px #f4a910;
+}
+input{
+    padding: 5px;
+    font-weight: 500;
+    color: #f4a910;
+    background: #000;
+    text-shadow: 0px 10px 50px #ed8600;
+    border: none;
+}
+input:focus-visible{
+    outline: none !important;
+}
+.submit{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.submit:hover{
+    background-image: linear-gradient(#f4a910, #ed8600) !important;
+    box-shadow: 0px 0px 20px 10px #ed8600;
+}
+
+textarea:focus-visible{
+    outline: none !important;
+    font-weight: bolder;
+    color: #f4a910
+}
+textarea{
+    background: #000;
+    border: none;
+}

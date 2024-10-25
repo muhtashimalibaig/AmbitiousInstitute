@@ -1,0 +1,47 @@
+.text-content p{
+    color: #dadada;
+    letter-spacing: 1.1px;
+    line-height: 2.1rem;
+    font-weight: 500;
+}
+.about-heading{
+    position: relative;
+    display: inline-block;
+}
+.about-heading::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right, #ed8600, #f4a610);
+    bottom: 0;
+}
+#milestone{
+    background: #f4a610;
+    background-clip: text;
+    position: relative;
+    display: inline-block;
+    -webkit-text-fill-color: transparent;
+}
+#milestone::before{
+    content: '';
+    background: #ed8600;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+}
+#students .card{
+    background: transparent;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+.hand{
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    z-index: -1;
+    opacity: 0.4;
+}
