@@ -1,0 +1,4 @@
+.services-card:hover .service-image {
+    opacity: 1 !important;
+    z-index: 1; /* Bring the hovered image above others */
+}

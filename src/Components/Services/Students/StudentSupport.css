@@ -1,0 +1,9 @@
+#studentSupport .card{
+    background: transparent;
+    background-image: url(../../../assets/studentImages.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 0%;
+    border: 1px solid #fff;
+    color: white;
+}
