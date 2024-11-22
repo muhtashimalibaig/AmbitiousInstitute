@@ -1,5 +1,0 @@
-for css
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-for js
-import 'bootstrap/dist/js/bootstrap.bundle.min';
